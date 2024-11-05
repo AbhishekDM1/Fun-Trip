@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="book.css">
+    <title> Apply Discount</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+        <h1>Travel<img src="ab.jpg" weidth="200px" height="50px"></h1>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#">Discounts</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="book.html">Booking</a></li>
+        </ul>
+    </div>
+    <div class="signup"><a href="signup.html" target="_blank">Sign Up</a></div>
+</div>
+    <header  style="max-width:1500px;">
+        <div class="info">
+          <div >
+            <h2 style="font-size:40px">Hotel Name</h2><br>
+          </div>
+          <div >
+            <form>
+              <div  style="margin:0 -16px;">
+                <div >
+                  <label> Check In</label>
+                  <input type="text" placeholder="DD MM YYYY" name="CheckIn" required >
+                </div>
+                <div >
+                  <label> Check Out</label>
+                  <input  type="text" placeholder="DD MM YYYY" name="CheckOut" required>
+                </div>
+              </div>
+              <div  style="margin:8px -16px;">
+                <div>
+                  <label> Adults</label><br>
+                  <input  type="number" value="1" name="Adults" min="1" max="10" style="width:230px">
+                </div>
+                <div >
+                  <label>Kids</label><br>
+                <input  type="number" value="0" name="Kids" min="0" max="6"  style="width:230px">
+                </div>
+              </div>
+              <button  type="submit" style="font-weight:900">Apply Discount</button>
+            </form>
+          </div>
+        </div>
+      </header>
+    <footer>
+        <p>&copy; 2023 Travel Booking</p>
+    </footer>
+</body>
+</html>
